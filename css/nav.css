@@ -167,4 +167,7 @@ header .navbar-brand{
 	header ul li.mobile-distance{
 		padding-right: 0px;
 	}
+	header div.contact-left-spacing{
+		padding-right: 50px;
+	}
 }
