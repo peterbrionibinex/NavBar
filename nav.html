@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Navigation</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/nav.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header>
+		<div class="contact-options d-flex justify-content-end align-items-center">
+			
+		</div>
+		<div class="container">
+			<nav class="navbar navbar-expand-md navbar-expand-lg navbar-light nav-menu">
+			  <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
+			  <span class="d-block d-md-none d-lg-none d-xl-none toggle" onclick="openNav()">&#9776;</span>
+			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			    <ul class="navbar-nav">
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Home</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Why Ibinex</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Pricing</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Services</a>
+			      </li> 
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">About Us</a>
+			      </li> 
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Security</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Legal</a>
+			      </li> 
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Contact Us</a>
+			      </li> 
+			      <li class="nav-item"><a class="nav-link" href="#"><button type="button" class="demo-button">LIVE DEMO</button></a></li>
+			    </ul>
+			  </div> 
+			</nav>
+			<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <ul class="navbar-nav">
+			  	<a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
+			    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+			    <li class="nav-item"><a class="nav-link" href="#">Why Ibinex</a></li>
+			    <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+			    <li class="nav-item"><a class="nav-link" href="#">Services</a></li> 
+			    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li> 
+			    <li class="nav-item"><a class="nav-link" href="#">Security</a></li>
+			    <li class="nav-item"><a class="nav-link" href="#">Legal</a></li> 
+			    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li> 
+			    <li class="nav-item"><a class="nav-link" href="#"><button type="button" class="demo-button">LIVE DEMO</button></a></li>
+			   </ul>
+		   	</div> 
+		</div>
+		<div id="crypto-prices" class="align-items-center text-center justify-content-center horizontal-scroll">
+			<ul class="navbar-nav display-nav">
+				<li class="nav-item display-nav mobile-distance">BTC/USD<span class="high-price">12,455.00</span></li>
+				<li class="nav-item display-nav mobile-distance">BTC/USD<span class="high-price">12,455.00</span></li>
+				<li class="nav-item display-nav mobile-distance">ETH/USD<span class="low-price">697.82</span></li>
+				<li class="nav-item display-nav mobile-distance">DASH/USD<span class="high-price">957.34</span></li>
+				<li class="nav-item display-nav mobile-distance">XPR/USD<span class="low-price">1.89</span></li>
+				<li class="nav-item display-nav mobile-distance">LTC/USD<span class="high-price">209.20</span></li>
+				<li class="nav-item display-nav mobile-distance">BH/USD<span class="high-price">2,455.00</span></li>
+				<li class="nav-item display-nav">BH/USD<span class="high-price">2,455.00</span></li>
+			</ul>
+		</div>
+	</header>
+	<script>
+		function openNav() {
+		    document.getElementById("mySidenav").style.width = "250px";
+		    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+		}
+		function closeNav() {
+		    document.getElementById("mySidenav").style.width = "0";
+		    document.body.style.backgroundColor = "white";
+		}
+	</script>
+	
+</body>
+</html>
+
+
