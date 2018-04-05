@@ -1,0 +1,173 @@
+/*Nav CSS*/
+a a::hover{
+	text-decoration: none;
+	color:red;
+}
+header div#crypto-prices{
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    color: #fff;
+    margin-top: 7px;
+    height: 57px;
+    background: rgba(19,44,90,1);
+    background: -moz-linear-gradient(left, rgba(19,44,90,1) 0%, rgba(192,23,35,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(19,44,90,1)), color-stop(100%, rgba(192,23,35,1)));
+    background: -webkit-linear-gradient(left, rgba(19,44,90,1) 0%, rgba(192,23,35,1) 100%);
+    background: -o-linear-gradient(left, rgba(19,44,90,1) 0%, rgba(192,23,35,1) 100%);
+    background: -ms-linear-gradient(left, rgba(19,44,90,1) 0%, rgba(192,23,35,1) 100%);
+    background: linear-gradient(to right, rgba(19,44,90,1) 0%, rgba(192,23,35,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#132c5a', endColorstr='#c01723', GradientType=1 );
+}
+
+header div ul span.high-price{
+	color: #00ff18;
+}
+header .low-price{
+	color: #ff0000;
+}
+
+header .demo-button{
+	width: 181px;
+    height: 49px;
+    border: none;
+    background-color: rgb(19, 44, 90);
+    box-shadow: none;
+    border-radius: 10px;
+    font-size: 12px;
+    color: rgb(246, 246, 247);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+header div#crypto-prices{
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    color: #fff;
+    margin-top: 7px;
+    height: 57px;
+    background: rgba(19,44,90,1);
+    background: -moz-linear-gradient(left, rgba(19,44,90,1) 0%, rgba(192,23,35,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(19,44,90,1)), color-stop(100%, rgba(192,23,35,1)));
+    background: -webkit-linear-gradient(left, rgba(19,44,90,1) 0%, rgba(192,23,35,1) 100%);
+    background: -o-linear-gradient(left, rgba(19,44,90,1) 0%, rgba(192,23,35,1) 100%);
+    background: -ms-linear-gradient(left, rgba(19,44,90,1) 0%, rgba(192,23,35,1) 100%);
+    background: linear-gradient(to right, rgba(19,44,90,1) 0%, rgba(192,23,35,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#132c5a', endColorstr='#c01723', GradientType=1 );
+    
+}
+header span{
+	display:block;
+}
+header .navbar-brand{
+	margin-top: 10px;
+}
+@media(min-width: 320px){
+	header .sidenav {
+	    height: 100%;
+	    width: 0;
+	    position: fixed;
+	    z-index: 1;
+	    top: 0;
+	    right: 0;
+	    background-color: white;
+	    overflow-x: hidden;
+	    transition: 0.5s ease;
+	    padding-top: 60px;
+	}
+
+	header .sidenav a {
+	    padding: 10px 8px 8px 32px;
+	    text-decoration: none;
+	    font-size: 13px;
+	    color: rgb(19, 44, 90);
+	    display: block;
+	    transition: 0.3s;
+	    margin:0 30px;
+	    font-style: bold;
+	}
+
+	header .sidenav a:hover {
+	    color: red;
+	}
+
+	header .sidenav .closebtn {
+	    position: absolute;
+	    top: 0;
+	    right: 25px;
+	    font-size: 30px;
+	    margin-left: 30px;
+	}
+	header span.toggle{
+		font-size: 30px;
+		color: rgb(19, 44, 90);
+	}
+	header div.horizontal-scroll{
+		overflow-x: scroll;
+		overflow-y: hidden;
+		white-space: nowrap;
+	}
+	header div#crypto-prices{
+		padding-left: 57px;
+	    padding-right: 57px;
+	    padding-top: 15px;
+	}
+	header ul.display-nav{
+		display: inline-block;
+	}
+	header ul.display-nav li.nav-item{
+		display: inline-block;
+	}
+	header ul li.mobile-distance{
+		padding-right: 103px;
+	}
+}
+
+@media (min-width: 768px){
+	header{
+		background-color: rgb(246, 246, 247);
+	}
+	header div.container{
+		padding: 0;
+	}
+	header div.contact-options{
+		background-color: rgb(227, 227, 227);
+	    height: 60px;
+	}
+	header div nav.nav-menu{
+		min-height: 103px;
+		max-width: 100%;
+	}
+	header div#crypto-prices{
+	    font-family: mr-eaves-xl-modern, sans-serif;
+	    font-style: normal;
+	    font-weight: 500;
+	    font-size: 10px;
+	    color: #fff;
+	    margin-top: 7px;
+	    height: 57px;
+	    background: rgba(19,44,90,1);
+	    background: -moz-linear-gradient(left, rgba(19,44,90,1) 0%, rgba(192,23,35,1) 100%);
+	    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(19,44,90,1)), color-stop(100%, rgba(192,23,35,1)));
+	    background: -webkit-linear-gradient(left, rgba(19,44,90,1) 0%, rgba(192,23,35,1) 100%);
+	    background: -o-linear-gradient(left, rgba(19,44,90,1) 0%, rgba(192,23,35,1) 100%);
+	    background: -ms-linear-gradient(left, rgba(19,44,90,1) 0%, rgba(192,23,35,1) 100%);
+	    background: linear-gradient(to right, rgba(19,44,90,1) 0%, rgba(192,23,35,1) 100%);
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#132c5a', endColorstr='#c01723', GradientType=1 );
+	    padding-left: 59px;
+	}
+	header .navbar-brand{
+		margin-right: 115px;
+	}
+	header div nav div ul.navbar-nav{
+		margin-top: 10px;
+	}
+	header ul li.mobile-distance{
+		padding-right: 0px;
+	}
+	header div.contact-left-spacing{
+		padding-right: 50px;
+	}
+}
